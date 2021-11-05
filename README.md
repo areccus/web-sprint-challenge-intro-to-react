@@ -79,6 +79,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Put your answers underneath the questions:
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
-1. Describe component state.
-1. Describe props.
-1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  -React was created by Facebook to manage their state. React makes coding so much smoother with jsx which is essentially html and javascript combined. There's also reusable components that can be shared across multiple js files, so you don't have to type the same thing over and over.
+2. Describe component state.
+  -First, a component is just reusable stored data. The component state is comprised of the actual state and this observer or listener type of variable that grabs information and sets the state to something. It usually looks something like this [state, setState] = useState() 
+3. Describe props.
+  -Props are just wonderful. This is how you grab that information I was talking about earlier. First export the function with the information needed and on your next file import the same file and here comes the magic. In the function of the file you imported to you pass in the props argument and now you can grab properties of the imported function.
+4. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+  -Side effects are anything that affects objects and properties outside the scope of the function. That's the best explanation I've seen. We use useEffect to affect the effect(Bars!). In all seriousness, it's what we use when we call the api and need to affect it.

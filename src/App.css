@@ -1,8 +1,12 @@
+
 .App {
   text-align: center;
 }
+/* #443e3e */
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #d6d6d6;
+  font-family: 'Monoton', sans-serif;
+  font-weight: 400;
+  font-size: 50px;
 }
 /* write your parent styles in here for your App.js */
